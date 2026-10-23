@@ -38,16 +38,20 @@ body {
 
 .header {
     margin-bottom: 30px;
+  
 }
 
 .header h1 {
+      text-decoration: underline;
+    text-align: center;
     font-size: 28px;
     margin-bottom: 8px;
 }
 
 .header p {
+    text-align: center;
     color: #64748b;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
@@ -109,8 +113,9 @@ body {
 /* Step 7: Task list section */
 
 .tasks-section h2 {
-    font-size: 20px;
-    margin-bottom: 15px;
+    font-size: 15px;
+    margin-bottom: 12px;
+    text-align: center;
 }
 
 #taskList {
